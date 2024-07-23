@@ -7,9 +7,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: GloriaBeauty;
+    src: url("./public/fonts/GloriaBeauty.ttf");
+}
+
 body {
     overflow: hidden;
-    font-family: "Caveat", 'Ephesis', "cursive", "Times New Roman";
+    font-family: "GloriaBeauty", "Caveat", 'Ephesis', "cursive", "Times New Roman";
     /* font-style: italic; */
 }
 
@@ -73,6 +78,7 @@ canvas {
     z-index: 2;
     text-align: center;
     line-height: 50px;
+    font-family: "Caveat", 'Ephesis', "cursive", "Times New Roman";
 }
 
 .footer span {
